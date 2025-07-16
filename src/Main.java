@@ -1,10 +1,34 @@
+import java.util.Locale;
+import java.util.logging.SocketHandler;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println(monkeyTrouble(false, true));
-        int n=12;
-        System.out.println(parrotTrouble(false,8));
+
+//String ism = "javohir";
+//        System.out.println(ism);
+//        String text = "Javohir";
+//        System.out.println(text.length());
+//        System.out.println(text.toUpperCase());
+//        System.out.println(text.toLowerCase());
+//        System.out.println(text.charAt(4));
+//        System.out.println(text.substring(1,4));
+//        String matn = "hello";
+//        for (int i = 0; i < matn.length(); i++) {
+//            System.out.println(matn.charAt(i));
+//        }
+//        String text ="classmasterghgghgggggh" ;
+//        System.out.println(text.length());
+//        System.out.println("boshlanish yarmi "+text.substring(0,5));
+//        System.out.println("oxirgi yarimi "+text.substring(5,11));
+//        System.out  .println("orta yarimi "+text.substring(3,7));
+//        System.out.println(text);
+
+
+        String text = "adjngdfhdhudfdbvsjbvhdsfb";
+        System.out.println(text.length());
+
 
     }
 
@@ -57,5 +81,15 @@ public class Main {
             return false;
         }
     }
+    public static String frontBack(String str) {
+        return "";
+    }
+    public boolean startHi(String str) {
+       return true;
+    }
+    public static String makeTags(String tag, String word) {
+       return String.format("<%s>%s</%s>", tag, word, tag);
+    }
+
 
 }
